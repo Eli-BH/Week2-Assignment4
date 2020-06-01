@@ -1,0 +1,31 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(173, 253, 253);
+
+}
+body{
+    height: 100vh;
+}
+.buttons{
+    display: flex; 
+    flex-direction: row;
+    padding: 1em; 
+    align-items: center; 
+
+}
+
+#left-button, #right-button{
+    margin: 3em;
+}
+
+#dm-Switch, #lm-Switch{
+    margin-top: 2em;
+    padding: 10px;
+}
+

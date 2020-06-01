@@ -40,3 +40,16 @@ function volume_sphere()
   return false;
  } 
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
+
+
+let dmSwitch = document.getElementById('dm-Switch'); 
+dmSwitch.addEventListener('click', ()=>{
+    document.body.style.backgroundColor="#090A23"; 
+    document.body.style.color="white"
+});
+
+let lmSwitch = document.getElementById('lm-Switch'); 
+lmSwitch.addEventListener('click', ()=>{
+    document.body.style.backgroundColor="rgb(173, 253, 253)"; 
+    document.body.style.color="black"
+});
